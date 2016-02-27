@@ -14,8 +14,15 @@
     "data",
     "io"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conorhastings/react-app-init.git"
+  },
   "author": "Conor Hastings",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conorhastings/react-app-init/issues"
+  },
   "peerDependencies": {
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
