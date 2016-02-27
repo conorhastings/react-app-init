@@ -1,6 +1,6 @@
 {
   "name": "react-app-init",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "start redux/react app with initial data call",
   "main": "dist/index.js",
   "scripts": {
