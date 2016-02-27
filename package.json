@@ -4,7 +4,8 @@
   "description": "start redux/react app with initial data call",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "redux",
@@ -18,8 +19,7 @@
   "peerDependencies": {
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
-    "react-redux": "^4.4.0",
-    "redux": "^3.3.1"
+    "react-redux": "^4.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
