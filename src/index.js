@@ -15,7 +15,6 @@ class Root extends React.Component {
 
 export default function(component, {store, init = [], renderTarget}) {
   if (!renderTarget) {
-    document.body.innerHTML = '';
     const div = document.createElement('div');
     div.id = 'app';
     document.body.appendChild(div);
