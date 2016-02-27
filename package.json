@@ -1,0 +1,29 @@
+{
+  "name": "react-app-init",
+  "version": "0.0.0",
+  "description": "start redux/react app with initial data call",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "elm",
+    "data",
+    "io"
+  ],
+  "author": "Conor Hastings",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
