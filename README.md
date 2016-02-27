@@ -10,7 +10,7 @@ React App Init is an opinionated simple way to kick off a react/redux app withou
 ```js
 import store from '../store';
 import App from './app';
-import init from './init';
+import init from 'react-app-init';
 import { loadData } from '../actions';
 
 init(<App />, { store, init: [loadData] });
